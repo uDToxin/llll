@@ -10,9 +10,6 @@ services:
       CPU_CORES: "4"
       DISK_SIZE: "400G"
       DISK2_SIZE: "100G"
-    devices:
-      - /dev/kvm
-      - /dev/net/tun
     cap_add:
       - NET_ADMIN
     ports:
