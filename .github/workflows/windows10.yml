@@ -10,8 +10,6 @@ services:
       CPU_CORES: "4"
       DISK_SIZE: "400G"
       DISK2_SIZE: "100G"
-    cap_add:
-      - NET_ADMIN
     ports:
       - "8006:8006"
       - "3389:3389/tcp"
